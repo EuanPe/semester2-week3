@@ -8,6 +8,10 @@ You are given the source code file: hello.c
   `gcc hello.c`
 
 The result is an executable file: a.out
+- This "executable file" is stored on your local disk
+- We can compile our code once and run the executable many times
+    - Compare this to the Python programming model we have used
+- We could remove the source code file (hello.c) and the executable program still exists and can be run.
 
 Run the executable file
 
@@ -18,6 +22,10 @@ Run the executable file
   `gcc hello.c -o hello`
 
 The result is an executable file: hello
+- C does not put any restrictions on the name of executable files - we use the "-o" flag to name it
+- The usually convention on linux is that the name of the source code file determines the executable name
+    - Source code "hello.c" -> Executable program "hello"
+- You should avoid using the default "a.out" - always give the executable a sensible name
 
 Run the executable file
 
