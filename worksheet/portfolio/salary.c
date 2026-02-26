@@ -10,12 +10,12 @@
  int main( void ) {
 
    // define and initialise variables for the problem data 
-   float salary;
-   scanf("%f", &salary);
-   float ni_rate; 
-   scanf("%f", &ni_rate);
-   float tax_rate; 
-   scanf("%f", &tax_rate);
+   float salary = 36250;
+   
+   float ni_rate = 0.08; 
+   
+   float tax_rate = 0.15; 
+   
     // calculate the deductions and final take-home salary
    float ni_contribution = salary * ni_rate;
    float take_home_salary = salary - ni_contribution;
